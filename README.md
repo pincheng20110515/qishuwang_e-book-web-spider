@@ -1,0 +1,1 @@
+It can automatically scrape TXT novels from Qishu.com (a free novel reading website) and download them locally (automatic naming, each search will give 5 search results to choose from, automatic search). I'm a complete beginner, please go easy on me.
