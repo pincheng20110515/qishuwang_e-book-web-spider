@@ -134,7 +134,7 @@ with open(f'/桌面/{file_name}.txt', 'a', encoding='utf-8') as f:  # 保存部�
                 content_box = soup.find('article', class_='font_max')  # 找到存文章的部分
                 if content_box:
                     novel_text = content_box.get_text()  # 拿到具体文章内容
-                    f.write(novel_text)  # 写入本地文件
+                    f.write(novel_text+'\n')  # 写入本地文件
                     count = count+1  # 章节计数加1
                     coherence=False
                     er_ror=0
